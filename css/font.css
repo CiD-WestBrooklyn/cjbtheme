@@ -1,0 +1,63 @@
+/* ====================================== */
+/* FONT.css - default font-Skin der Seite */
+/* ====================================== */
+
+/* Inhalt:
+	01 - Schriftart
+	02 - Links
+*/
+
+
+	/* 01 - Schriftart */
+@import url("Droid-Sans-fontfacekit/stylesheet.css");
+@import url("Raleway/stylesheet.css");
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+
+html, body
+{
+	/* font-family: "DroidSansRegular", Tahoma, Arial, "Liberation Sans", "DejaVu Sans"; */
+	font-family: "Raleway", sans-serif;
+	color: #0B0B0B;
+}
+
+h1
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+#site-name
+{
+	font-variant: small-caps;
+}
+
+	/* 02 - Links */
+a
+{
+	color: #333333;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #0B0B0B;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #545454;
+	text-decoration: none;
+}
+
+#main a:hover
+{
+	color: #545454;
+	font-weight: bold;
+}
+
+#main a
+{
+	color: #545454;
+	text-decoration: none;
+	font-weight: bold;
+}

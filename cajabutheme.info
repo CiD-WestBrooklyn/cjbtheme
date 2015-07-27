@@ -1,0 +1,61 @@
+;CAJABU THEME
+
+;der Name des THEMES
+	name = CAJABU theme
+
+;die Beschreibung
+	description = CAJABUtheme V 1.3
+
+;ein Screenshot 
+	;screenshot = /img/devel_logo.png
+	
+;Version in welcher Version des Themes befinden wir uns.
+	version = 0.05 Beta
+	
+;core fuer welche core ist das Theme geeignet
+	core = 7.x
+
+;Regions , welche regions stehen uns zu verfuegung.
+;regions[right]      = right sidebar
+;regions[left]		 = left sidebar
+;regions[center]     = content center
+;regions[top_bar]	 = top_bar
+
+;Region fuer den Image-Slider
+regions[sliderRegion] = sliderRegion
+regions[help] = Hilfe
+regions[content] = Inhalt
+regions[sidebar_first] = Linke Seitenleiste
+regions[sidebar_second] = Rechte Seitenleiste
+regions[footer] = Fussbereich
+regions[header] = Kopfbereich
+regions[highlighted] = Hervorgehoben
+
+;delete inheritage of main.css
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/structure.css
+stylesheets[all][] = css/font.css
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/js_mods.css
+stylesheets[all][] = css/base_info.css
+stylesheets[all][] = css/social_media.css
+stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/container.css
+stylesheets[all][] = css/body_style.css
+stylesheets[all][] = css/modsPhilipp.css
+stylesheets[all][] = css/js_fullscreen.css
+stylesheets[all][] = css/jonas_gallerie.css
+stylesheets[all][] = css/modsJonas.css
+
+;Scripts
+scripts[] = js/greyground.js
+
+;scripts[] = js/hoverIntent.js
+;scripts[] = js/menuBehaviour.js
+;debug: nur zu Entwicklungszwecken
+;scripts[] = js/less-1.3.0.min.js
+
+;PHP min PHPVERSION
+php = DRUPAL_MINIMUM_PHP
+

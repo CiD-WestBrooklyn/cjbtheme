@@ -1,0 +1,169 @@
+/* ================================================ */
+/* STRUCTURE.css - default Strukturierung der Seite */
+/* ================================================ */
+
+/* Inhalt:
+	01 - farbliche Basiseinstellungen 
+	02 - Blockpositionierung
+	03 - Basispadding
+	04 - Floating (Positionierung links, rechts, center)
+*/
+
+	/* 01 - farbliche Basiseinstellungen */
+#header
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	width: 61em;
+	height: 26em;
+	background: none;
+	z-index: -5;
+}
+
+
+/* definiert die Gesamteigenschaften von main, right und left */
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	width: 60em;
+	background-color: #CCCCCC;
+}
+
+#footer
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	width: 60em;
+	background-color: #D1FFFF;
+}
+
+	/* 02 - Blockpositionierung */
+#sidebar-left
+{
+	margin-top: 0em;
+	position: relative;
+	width: 15.8em;
+	background-color: transparent;
+	border-right: 2px solid #666666;
+}
+
+/*
+#sidebar-right
+{
+	margin-top: 0em;
+	position: relative;
+	width: 13em;
+	background-color: #919191;
+}
+*/
+#main
+{
+	margin-top: 0em;
+	/* Der Content-Block "main" ist fuer die Veraenderungen des
+		Seitenlayouts wesentlich, daher absolut */
+	position: relative;
+	width: 41em;
+	background-color: transparent;
+}
+
+	/* 03 - Basispadding */
+#header
+{
+	/* padding: 0.5em 0.5em 0.5em 0.5em; */
+}
+
+#container
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#main
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	min-height: 18em;
+}
+
+#sidebar-right
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#sidebar-left
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+	/* 04 - Floating */
+#sidebar-left
+{
+	float: left;
+}
+
+#main
+{
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	float: center;
+}
+
+#sidebar-right
+{
+	float: right;
+}
+
+#container
+{
+	background-position: 100px 50%;
+}
+
+/* Slider-Konfiguration */
+#myslider {
+	position: absolute;
+	margin-top: 132px;
+	z-index: -1;
+}
+
+#bot_grey_border {
+	z-index: 1;
+}
+
+/* Nice-Menu zusaetzliche Einstellungen */
+.nice-menu {
+	margin-left: 160px !important;
+	margin-top: 381px !important;
+}
+
+#header-region ul.nice-menu li a {
+	color: white;
+	line-height: 14px;
+}
+
+hr {
+	height: 0px;
+}
+
+/* Anfahrtblock auf der rechten Seite einrichten */
+#anfahrbereich {
+	display: block;
+	position: absolute;
+	margin-left: 51.2em;
+	text-align: right;
+	margin-top: 3.8em;
+}
+#anfahrbereich a {
+	line-height: 20px;
+	color: white;
+}
+
+.nice-menu li ul li ul li {
+	opacity: 1.0 !important;
+}
+
+ul.nice-menu li:hover ul {
+	background-color: black !important;
+}

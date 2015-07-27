@@ -1,0 +1,9 @@
+/* ============================================= */
+/* FOOTER.css - Spezifikation der unteren Leiste */
+/* ============================================= */
+
+#container
+{
+	background-image:url(../img/textmitte.PNG);
+	background-repeat:repeat;
+}

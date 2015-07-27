@@ -1,0 +1,62 @@
+/* ================================= */
+/* MODSJONAS.css - mods by Jonas */
+/* ================================= */
+
+
+
+
+
+
+/* UNESCO_Logo */
+/*VARIENATE LINKS*/
+#UNESCO_LOGO
+{
+	width: 18em;
+	height: 18em;
+	/*background-image:url("../img/unesco.png");*/
+	margin-top: -0.55em;
+	margin-left: 23.5em;
+	position: absolute;
+	
+	
+}
+.unlogo{
+max-height: 100%;
+max-width: 100%;
+
+}
+
+#anfahrtsbereich{
+
+	margin-bottom: 5em;
+
+
+}
+
+
+
+
+
+
+
+/* Die folgenden Zeilen sind mehr ein Hack als eine mod.
+
+verwendung bitte nur, wenn es nicht anders geht. bei fragen einfach mich ansprechen
+
+USE: 2014-->2015 edit in footer.css 2
+
+*/
+#copyright{
+	visibility: hidden;
+}
+
+#copyright:after
+{
+	content: '© Copyright 2015 by Carl-Jacob-Burckhardt-Gymnasium';
+	visibility: visible;
+	position: absolute;
+	font-family: Raleway, sans-serif;
+	height: 19px;
+	width: 960px;
+	right: 10px;
+}

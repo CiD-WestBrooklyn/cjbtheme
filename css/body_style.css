@@ -1,0 +1,19 @@
+/* ======================================== */
+/* BODY_STYLE.css - mods den body-abschnitt */
+/* ======================================== */
+
+#page-title
+{
+	color: #333333;
+	text-decoration: none;
+	margin-bottom: 0;
+    margin-top: -0.1em;
+}
+
+#sidebar-left h2
+{
+	color: #333333;
+	text-decoration: none;
+	margin-bottom: 0;
+    margin-top: -0.1em;
+}

@@ -1,0 +1,114 @@
+/* =============================================== */
+/* STR_MOD1.css - default Strukturierung der Seite */
+/* =============================================== */
+
+/* header-Block Modifications */
+#top_grey_border
+{
+	/* inherit white line as border on bottom */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	width: 61em;
+	height: 8.0em;
+	/* background-color: red; */
+	/*background-image:url(../img/low_contrast_linen.png); */
+	background-image:url(../img/textoben.jpg); 
+	background-repeat:repeat-x;
+	font-size:100%;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 0.3em;
+	
+}
+
+#bot_grey_border
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15.7em;
+	width: 61em;
+	height: 2.05em;
+	background-color: #343434;
+	opacity: 0.8;
+}
+
+/* Einbettung der Primaerlinks in die obere Leiste */
+
+#primary
+{
+	margin-top: 1.5em;
+	height: 2.4em;
+	text-align: center;
+}
+
+#primary a
+{
+	color: white;
+}
+
+#primary a:hover
+{
+	color: #AFAFAF;
+}
+
+ul.links
+{
+	padding-top: 0.3em;
+	font-size: 1.4em;
+}
+
+/* Headline-Modifizierung */
+
+#headline_mod
+{
+	margin-left: 8em;
+	margin-top: 1.3em;
+	position: absolute;
+	font-size: 2.2em;
+	color: white;
+}
+
+/* CaJaBu-Logo */
+
+#imgimg
+{
+	width: 7em;
+	height: 7em;
+	background-image:url(../img/cjb-logo-no-bg-s.png);
+	margin-top: 0.8em;
+	margin-left: 1em;
+	padding-top: 0em;
+	position: absolute;
+}
+
+/* unesco Projektschule config */
+
+#subtitle1 /* "unesco" */
+{
+	color: white;
+	position: absolute;
+	margin-top: 3.5em;
+	margin-left: 13em;
+	font-size: 1.5em;
+}
+
+#subtitle2 /* "projekt-schule" */
+{
+	color: white;
+	position: absolute;
+	margin-top: 5.7em;
+	margin-left: 25em;
+	font-size: 1em;
+	
+}
+
+#search
+{
+	display: none;
+}
+
+/* Versteckt komisches doppeltes Menu... */
+.region-header #block-nice-menus-1 .content .nice-menu {
+	display: block;
+}

@@ -1,0 +1,49 @@
+/* ================================= */
+/* MODSPHILIPP.css - mods by philipp */
+/* ================================= */
+
+
+#block-menu-menu-anfahrt
+{
+	margin-top: 0.3em;
+	margin-bottom: 0em;
+}
+
+#block-menu-menu-anfahrt a:hover
+{
+	text-decoration: underline;
+	
+}
+
+#block-menu-menu-anfahrt
+{
+    height: 150px;
+    margin-left: 49em;
+    margin-top: 3.3em;
+    position: absolute;
+    text-align: right;
+    width: 12em;
+}
+#block-menu-menu-anfahrt .content a
+{
+	color: white;
+}
+
+#block-menu-menu-anfahrt .content
+{
+	color: white;
+}
+
+#block-menu-menu-anfahrt li.leaf
+{
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#block-block-1
+{
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 2px solid #666666;
+	margin-bottom: 1em;
+}

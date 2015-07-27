@@ -1,0 +1,205 @@
+/* ============================================= */
+/* JS_MODS.css - Ueberschreiben von nice-menu-js */
+/* ============================================= */
+
+.nice-menu-hide-title
+{
+	display: none;
+}
+
+/* nice-menu Positionierung auf bot_grey_border */
+#nice-menu-2
+{
+	text-align: center;
+	background-color: none;
+}
+
+/* Primary Links ausblenden (da Nice-Menu inherit) */
+#primary
+{
+	display: none;
+}
+
+#nice-menu-2 a
+{
+	color: white;
+	background-color: transparent;
+	opacity: 1.0;
+	margin-top: -0.2em;
+}
+
+#nice-menu-2 a:hover
+{
+	color: #AFAFAF;
+}
+
+ul.nice-menu-down li.menuparent:hover {
+	color: red;
+}
+
+ul.nice-menu-down
+{
+	margin-left: 11em;
+}
+
+/* Versatz der Untermenu-Elemente von nice-menu */
+#nice-menu-2 li ul li a
+{
+	color: white;
+	background-color: none;
+	border: none;
+	text-align: left;
+	border: none;
+}
+
+#nice-menu-2 li ul li
+{
+	background-color: transparent;
+}
+
+/* Drop-Down Elemente */
+#header-region ul.nice-menu li
+{
+	background-color: none;
+	opacity: 0.9;
+}
+
+/* spricht NUR die Drop-Down Elemente an */
+#header-region ul.nice-menu li ul li
+{
+	margin: 0em;
+}
+
+/* spricht NUR das erste Element des nice-menus an */
+#header-region ul.nice-menu li ul li:first-child
+{
+	border-style: none;
+}
+
+#header-region ul.nice-menu li ul li
+{
+	border-style: none;
+	background-color: #343434;
+	width: 11.3em;
+	height: 2em;
+}
+
+#header-region ul.nice-menu li a
+{
+	background-color: none;
+}
+
+/* Border entfernen */
+ul.nice-menu li
+{
+	border: none;
+}
+
+#header-region ul.nice-menu ul
+{
+	border: none;
+}
+
+/* transparenter Hintergrund fuer die primary nice-menus */
+#header-region ul.nice-menu-down li.menuparent
+{
+	background: transparent;
+}
+
+#header-region ul.nice-menu-down li.menuparent:hover
+{
+	background: transparent;
+}
+
+ul.nice-menu li
+{
+	background: transparent;
+}
+
+/* sub-sub menu config */
+#header-region ul.nice-menu-down li li.menuparent
+{
+	background-color: #343434;
+	opacity: 0.9;
+}
+
+#header-region ul.nice-menu-down li li.menuparent:hover
+{
+	background-color: #343434;
+	opacity: 0.9;
+}
+
+/* child-elements */
+
+#header-region ul.nice-menu li.menuparent ul
+{
+	position: relative;
+}
+
+#header-region ul.nice-menu li
+{
+	background-color: #343434;
+	opacity: 0.9;
+}
+
+#header-region ul.nice-menu li
+{
+	background: transparent;
+}
+
+/* weisse linien zwischen den Links */
+#header-region ul.nice-menu li
+{
+	font-size: 1em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: white;
+	padding-top: 0em;
+    border-right: 1px solid white;
+    height: 1.2em;
+    margin-top: 0.5em;
+    vertical-align: middle;
+}
+
+#header-region ul.nice-menu li:first-child
+{
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: white;
+}
+
+/* Positionierung der Menues nach unten */
+#header-region ul.nice-menu li.menuparent ul
+{
+	margin-top: 0em;
+	position: absolute;
+	margin-left: 0em;
+}
+
+/* Nice Menu ueberschreiben (Positionierung) */
+ul.nice-menu
+{
+	position: relative;
+	z-index: 100;
+}
+
+/* Advanced correction */
+#testA
+{
+	position: absolute;
+	width: 3em;
+	height: 3em;
+	margin-left: 3em;
+	background-color: red;
+}
+
+#testB
+{
+	position: absolute;
+}
+
+.submitted {
+	display: none;
+}

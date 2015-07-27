@@ -1,0 +1,85 @@
+/* ============================================= */
+/* FOOTER.css - Spezifikation der unteren Leiste */
+/* ============================================= */
+
+/* #kontaktbereich
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	width: 61em;
+	height: 8.0em;
+	background-image:url(../img/low_contrast_linen.png);
+	background-repeat:repeat-x;
+	font-size:100%;
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 0.4em;
+	
+}
+*/
+
+#footer
+{
+	height: 12em;
+	width: 61em;
+	background-image:url(../img/textende.PNG);
+	background-repeat:repeat;
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 0.3em;
+}
+
+#black_line
+{
+    background-color: black;
+    color: white;
+    height: 1.4em;
+    margin-top: 10em;
+    padding: 0.3em 0.5em;
+    position: absolute;
+    width: 60em;
+}
+
+#copyright{
+	visibility: hidden;
+}
+
+#copyright:after
+{
+	content: '© Copyright 2015 by Carl-Jacob-Burckhardt-Gymnasium';
+	visibility: visible;
+	position: absolute;
+	font-family: Raleway, sans-serif;
+	height: 19px;
+	width: 960px;
+	right: 10px;
+}
+
+#kontaktbereich
+{
+	/**/
+	color: white;
+	position: absolute;
+	margin-left: 1em;
+	margin-top: -0.3em;
+}
+
+
+/* Impressum und Datenschutz-Links */
+#black_line a
+{
+	color: white;
+}
+
+#black_line a:hover
+{
+	color: #AFAFAF;
+}
+
+#links
+{
+    margin-left: 44.4em;
+    margin-top: -1.2em;
+    position: absolute;
+}
